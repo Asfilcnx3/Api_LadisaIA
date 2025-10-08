@@ -14,7 +14,8 @@ app = FastAPI(
     title="Imprenta Inteligente API",
     description="API para gestión inteligente de producción en imprenta mediante comandos/ordenes con lenguaje natural",
     version="1.0.0",
-    openapi_url=f"{settings.API_V1_STR}/openapi.json"
+    openapi_url=f"{settings.API_V1_STR}/openapi.json",
+    root_path="/ladisa"
 )
 
 instrumentator = Instrumentator().instrument(app)

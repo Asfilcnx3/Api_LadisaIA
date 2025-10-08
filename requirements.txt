@@ -3,6 +3,7 @@ fastapi
 uvicorn[standard]
 pydantic
 pydantic-settings
+deap
 python-dotenv
 
 # OpenAI para el LLM
