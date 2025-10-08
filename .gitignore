@@ -1,0 +1,11 @@
+# Environments
+.env
+.venv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Pytest Cache
+.pytest_cache/

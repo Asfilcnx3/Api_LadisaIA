@@ -1,0 +1,29 @@
+# FastAPI y servidor // Core
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+
+# OpenAI para el LLM
+openai
+
+# Base de datos (para futuras implementaciones)
+psycopg2-binary  # PostgreSQL
+sqlalchemy
+alembic
+aiomysql
+
+# Celery para tareas asíncronas (comparación de imágenes)
+celery[redis]
+
+# Testing
+pytest
+pytest-asyncio
+httpx # Requerido por TestClient de FastAPI
+
+# Utilidades
+python-jose[cryptography]  # JWT si necesitas autenticación
+passlib[bcrypt] # Para hashing de contraseñas
+
+prometheus_fastapi_instrumentator
